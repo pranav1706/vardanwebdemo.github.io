@@ -1,0 +1,136 @@
+/*------------------------------------- Min-Width -------------------------------------*/
+@media (min-width: 992px){
+    .mainbar{
+        height: 100px;
+    }
+    .mainbar .navbar{
+        height: 100%;
+    }
+    .mainbar .navbar-nav .nav-link{
+        margin-left: 40px;
+    }
+    section#products .product-box{
+        padding-right: 24px;
+    }
+}
+@media (min-width: 1024px){
+    .swiper-content{
+        padding-left: 30px;
+    }
+    .swiper-slide .swiper-img{
+        margin-right: 30px;
+    }
+}
+
+/*------------------------------------- Max-Width -------------------------------------*/
+@media (max-width: 1399px){
+    .sect-title h2{
+        font-size: 32px;
+    }
+}
+@media (max-width: 1200px){
+    .sect-title h2{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1024px){
+    .btn{
+        --bs-btn-padding-x: 40px;
+        --bs-btn-padding-y: 14px;
+    }
+    .swiper-slide .col-6{
+        width: 100%;
+    }
+    .swiper-slide .swiper-content{
+        text-align: center;
+        margin-top: 50px;
+    }
+    section#banner .swiper-slide .swiper-content h1{
+        font-size: 44px;
+    }
+    .swiper-slide .swiper-content p{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .swiper-slide .swiper-img img{
+        margin: 0 auto;
+        margin-top: -50px;
+    }
+    section#banner{
+        height: 800px;
+    }
+    section#banner .swiper-slide .banner-img-shadow{
+        width: 90%;
+    }
+}
+@media (max-width: 991px){
+    .navbar{
+        padding: 20px 0;
+    }
+    .navbar-nav{
+        padding-top: 20px;
+    }
+    .sect-title h2{
+        font-size: 32px;
+    }
+    section#products .product-img img{
+        height: 300px;
+        margin: 0 auto;
+    }
+    section#products .product-desc .product-desc-inner{
+        padding: 20px;
+      }
+}
+@media (max-width: 767px){
+    .swiper-slide .swiper-content p{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+@media (max-width: 575px){
+    .btn{
+        --bs-btn-padding-x: 36px;
+        --bs-btn-padding-y: 12px;
+    }
+    .mainbar .navbar-nav .nav-link{
+        font-size: 14px;
+    }
+    section#banner{
+        height: 680px;
+    }
+    section#banner .swiper-button-prev,section#banner .swiper-button-next{
+        display: none;
+    }
+    .swiper-slide .swiper-content p{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    section#banner .swiper-slide .swiper-content h1{
+        font-size: 38px;
+        letter-spacing: 0.1em;
+        line-height: 40px;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    .sect-title h2{
+        font-size: 28px;
+        margin-bottom: -10px;
+    }
+    .about-inner-box .card-body{
+        padding: 15px;
+    }
+    section#products .nav-pills .nav-link{
+        font-size: 14px;
+    }
+    .del-form{
+        padding: 30px 20px;
+    }
+}
+@media (max-width: 350px){
+    .social-icons li a{
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+    }
+}
