@@ -15,7 +15,7 @@
 :root,
 [data-bs-theme=light] {
 /* Color Declaration */
-  --bs-red: #BC2120;
+  --bs-red: #e61d2a;
   --bs-black: #0a0a0a;
   --bs-white: #fff;
   --bs-gray: #6c757d;
@@ -29,7 +29,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #BC2120;
+  --bs-primary: #e61d2a;
   --bs-secondary: #EBEBEB;
   --bs-light: #EBEBEB;
   --bs-dark: #0a0a0a;
@@ -51,7 +51,7 @@
   --bs-link-color: #0a0a0a;
   --bs-link-color-rgb: 10, 10, 10;
   --bs-link-decoration: none;
-  --bs-link-hover-color: #BC2120;
+  --bs-link-hover-color: #e61d2a;
   --bs-link-hover-color-rgb: 188, 33, 322;
   --bs-border-width: 0px;
   --bs-border-style: solid;
@@ -129,7 +129,7 @@ img{
     --bs-btn-bg: var(--bs-primary);
     --bs-btn-border-color: var(--bs-primary);
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #961a1a;
+    --bs-btn-hover-bg: #ab1721;
     --bs-btn-hover-border-color: var(--bs-primary);
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
@@ -453,7 +453,7 @@ section#products .owl-carousel .owl-nav button.owl-prev, section#products .owl-c
 }
 section#products .owl-carousel .owl-nav button.owl-prev:hover, section#products .owl-carousel .owl-nav button.owl-next:hover{
   color: var(--bs-white);
-  background-color: #961a1a;
+  background-color: #ab1721;
 }
 /*------------------------------------- Product-End -------------------------------------*/
 
