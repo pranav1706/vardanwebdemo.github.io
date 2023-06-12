@@ -112,11 +112,15 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.product-slider .owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
+    margin:30,
     nav:true,
+    dots: false,
+    autoplay: true,
+    navText: ["<i class='bi bi-chevron-left'></i>","<i class='bi bi-chevron-right'></i>"],
+    autoplayTimeout: 1500,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:3
