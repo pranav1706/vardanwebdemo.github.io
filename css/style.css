@@ -376,7 +376,7 @@ section#about .about-inner-box, section#about .about-inner-box .card{
 }
 .about-inner-box .card .card-text, .about-inner-box .card .card-sub-title{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 27px;
 }
 .about-inner-box .card .card-sub-title{
@@ -426,12 +426,17 @@ section#products .tab-product-box{
 section#products .tab-product-box .tab-product-img{
   height: 100%;
   border-right: 1px solid var(--bs-secondary);
+  overflow: hidden;
+}
+section#products .tab-product-box .tab-product-img:hover img{
+  transform: scale(1.15);
 }
 section#products .tab-product-box .tab-product-img img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: left;
+  transition: all .3s ease;
 }
 section#products .tab-product-box .tab-product-title h3{
   font-size: 20px;
