@@ -43,12 +43,12 @@ $(document).ready(function(){
 });
 
 //========== Header-Tab ========== //
-$(document).ready(function(){
-	$('.navbar-nav li a').on('click',function(){
-        $('.navbar-nav li a').removeClass('active');
-		$(this).addClass('active');
-	});
-});
+// $(document).ready(function(){
+// 	$('.navbar-nav li a').on('click',function(){
+//         $('.navbar-nav li a').removeClass('active');
+// 		$(this).addClass('active');
+// 	});
+// });
 
 //========== Swiper-Slider (Banner) ========== //
 jQuery(document).ready(function(){
@@ -95,7 +95,7 @@ $(window).scroll(function(){
 // smooth scroll to anchor, with option of hash appearing in url. Thanks:
 // https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
 $(document).ready(function(){
-	$('a[href^="#"]').on('click',function (e) {
+	$('.navbar-nav a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
 	    var target = this.hash;
 	    var $target = $(target);
@@ -108,7 +108,7 @@ $(document).ready(function(){
 });
 
 
-//========== Fixed Header ========== //
+//========== Product Slider ========== //
 $(document).ready(function(){
   $('.product-slider .owl-carousel').owlCarousel({
     loop:true,

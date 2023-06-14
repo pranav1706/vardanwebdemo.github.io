@@ -331,7 +331,7 @@ section#banner .swiper-slide .swiper-content h1{
   text-transform: uppercase;
   font-size: 48px;
   font-weight: 600;
-  letter-spacing: 0.12em;
+  /* letter-spacing: 0.12em; */
   line-height: 69px;
 }
 section#banner .swiper-slide .swiper-content p{
@@ -343,6 +343,10 @@ section#banner .swiper-slide .swiper-content p{
 }
 section#banner .swiper-slide .swiper-img{
   position: relative;
+}
+section#banner .swiper-slide .swiper-img img.banner-2{
+  width: 500px;
+  margin-left: auto;
 }
 section#banner .swiper-slide .banner-img-shadow{
   position: absolute;
@@ -459,6 +463,18 @@ section#products .owl-carousel .owl-nav button.owl-prev, section#products .owl-c
 section#products .owl-carousel .owl-nav button.owl-prev:hover, section#products .owl-carousel .owl-nav button.owl-next:hover{
   color: var(--bs-white);
   background-color: #ab1721;
+}
+section#products .product-box ul{
+  padding-left: 18px;
+}
+section#products .product-box ul li{
+  list-style: disc;
+  padding-bottom: 10px;
+}
+section#products .product-box .tab-box-footer{
+  margin-top: 30px !important;
+  font-size: 18px;
+  font-weight: 500;
 }
 /*------------------------------------- Product-End -------------------------------------*/
 
