@@ -7,6 +7,14 @@ $(window).on("load", function () {
   setInterval(removeLoader, 1000);
 });
 
+//========== Preloader ========== //
+$(window).on("load", function () {
+  function loaderZoom() {
+    $("#loader img").addClass("zoomIn");
+  }
+  setInterval(loaderZoom, 1000);
+});
+
 //========== Back-To-Top ========== //
 $(window).on("load", function () {
   //Get the button
