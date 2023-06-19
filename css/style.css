@@ -300,6 +300,9 @@ section#banner{
 section#banner .swiper{
   height: 100%;
 }
+/* section#banner .banner-1{
+  width: calc(100% - 200px);
+} */
 section#banner .swiper-button-prev,section#banner .swiper-button-next{
   height: 100px;
   width: 45px;
@@ -326,6 +329,9 @@ section#banner .swiper-pagination .swiper-pagination-bullet{
 section#banner .swiper-pagination .swiper-pagination-bullet-active{
   background-color: var(--bs-primary);
 }
+section#banner .swiper-slide .swiper-content{
+  margin-left: 10%;
+}
 section#banner .swiper-slide .swiper-content h1{
   font-family: 'jost';
   text-transform: uppercase;
@@ -343,6 +349,33 @@ section#banner .swiper-slide .swiper-content p{
 }
 section#banner .swiper-slide .swiper-img{
   position: relative;
+}
+section#banner .swiper-slide .banner-img{
+  height: 100%;
+  position: relative;
+}
+section#banner .swiper-slide .banner-img img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+section#banner .swiper-slide .banner-img .banner-content{
+  background-color: var(--bs-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: calc(100% - 60%);
+  padding: 20px;
+  border-radius: 50px;
+}
+section#banner .swiper-slide .banner-img .banner-content h3{
+  margin-left: 15px;
+  font-size: 20px;
+}
+section#banner .swiper-slide .banner-img .banner-content i{
+  color: var(--bs-gray);
+  font-size: 20px;
 }
 section#banner .swiper-slide .swiper-img img.banner-2{
   width: 500px;
@@ -363,10 +396,11 @@ section#banner .swiper-slide .banner-img-shadow{
 /*------------------------------------- Banner-End -------------------------------------*/
 
 /*------------------------------------- About-Start -------------------------------------*/
-/* section#about .about-img, section#about .about-img img{
-    height: min-content;
+section#about .about-img, section#about .about-img img{
+    height: 100%;
+    width: 100%;
     object-fit: cover;
-} */
+}
 section#about .about-inner-box, section#about .about-inner-box .card{
     height: 100%;
 }
@@ -419,10 +453,6 @@ section#products .product-slider{
   margin-bottom: 40px;
   padding: 60px 0;
 }
-section#products .product-box h2{
-  padding-bottom: 10px;
-
-}
 section#products .tab-product-box{
   border: 1px solid var(--bs-secondary);
   align-items: center;
@@ -470,6 +500,11 @@ section#products .product-box ul{
 section#products .product-box ul li{
   list-style: disc;
   padding-bottom: 10px;
+}
+section#products .product-box a{
+  text-decoration: underline;
+  color: var(--bs-primary);
+  margin-left: 15px;
 }
 section#products .product-box .tab-box-footer{
   margin-top: 30px !important;

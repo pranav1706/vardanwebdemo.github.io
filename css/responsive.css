@@ -18,6 +18,32 @@
         margin-right: 30px;
     }
 }
+@media (min-width: 1600px){
+    section#banner .swiper-slide .swiper-content{
+        margin-left: 18%;
+      }
+    section#banner .banner-img-shadow{
+        display: none;
+    }
+}
+@media (min-width: 1750px){
+    section#banner .swiper-slide .swiper-content{
+        margin-left: 27%;
+      }
+}
+@media (min-width: 2000px){
+    section#banner .swiper-slide .swiper-content{
+        margin-left: 36%;
+      }
+}
+@media (min-width: 2250px){
+    section#banner .swiper-slide .swiper-content{
+        margin-left: 45%;
+      }
+}
+
+/*------------------------------------- Min/Max-Width -------------------------------------*/
+
 @media ((min-width: 992px) and (max-width: 1200px)){
     section#products .tab-product-box .h-100{
         height: auto !important;
@@ -83,6 +109,12 @@
     section#banner .swiper-slide .banner-img-shadow{
         width: 90%;
     }
+    section#banner .swiper-slide .swiper-content{
+        margin-left: 0%;
+    }
+    section#banner .swiper-slide .banner-img .banner-content{
+        width: calc(100% - 50%);
+    }
 }
 @media (max-width: 991px){
     .navbar{
@@ -101,6 +133,9 @@
     section#products .product-desc .product-desc-inner{
         padding: 20px;
       }
+    /* section#banner .swiper-slide .banner-img img{
+        object-fit: contain;
+    } */
 }
 @media (max-width: 767px){
     .swiper-slide .swiper-content p{
@@ -123,6 +158,9 @@
     }
     section#products .tab-product-box .tab-product-content{
         padding: 12px;
+    }
+    section#banner .swiper-slide .banner-img .banner-content{
+        width: calc(100% - 45%);
     }
 }
 @media (max-width: 575px){
@@ -166,6 +204,20 @@
     }
     section#products .owl-carousel .owl-nav button.owl-prev, section#products .owl-carousel .owl-nav button.owl-next{
         display: none;
+    }
+    section#banner .swiper-slide .banner-img .banner-content{
+        width: calc(100% - 35%);
+    }
+}
+@media (max-width: 400px){
+    section#banner .swiper-slide .banner-img .banner-content{
+        width: calc(100% - 20%);
+    }
+    section#banner .swiper-slide .banner-img .banner-content i{
+        font-size: 16px;
+    }
+    section#banner .swiper-slide .banner-img .banner-content h3{
+        font-size: 16px;
     }
 }
 @media (max-width: 350px){

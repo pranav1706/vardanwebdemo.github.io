@@ -131,72 +131,45 @@
     <main>
         <!-- Banner Start -->
         <section id="banner" class="bg-secondary d-flex align-items-center">
-            <div class="container h-100 d-flex align-items-center">
-                <!-- Slider main container -->
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <div class="row h-100 align-items-center">
-                                <div class="col-6">
-                                    <div class="swiper-content wow fadeInLeft" data-wow-delay="1s">
-                                        <h1>Cements</h1>
-                                        <p>VARDAN ENTERPRISE is proud to offer an extensive range of Cement products renowned for their reliability and high-quality.</p>
-                                        <a href="#products" class="btn btn-primary">More Products</a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="swiper-img wow fadeInRight" data-wow-delay="1.3s">
-                                        <img src="images/banner-img-1.png" width="588" height="351" class="img-fluid banner-1" alt="banner-img-1">
-                                        <div class="banner-img-shadow"></div>
-                                    </div>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-6">
+                                <div class="swiper-content wow fadeInLeft" data-wow-delay="1s">
+                                    <h1>Cements</h1>
+                                    <p>VARDAN ENTERPRISE is proud to offer an extensive range of Cement products renowned for their reliability and high-quality.</p>
+                                    <a href="#products" class="btn btn-primary">More Products</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row h-100 align-items-center">
-                                <div class="col-6">
-                                    <div class="swiper-content">
-                                        <h1>TMT Bars</h1>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <a href="#products" class="btn btn-primary">More Products</a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="swiper-img">
-                                        <img src="images/banner-img-2.avif" width="588" height="351" class="img-fluid banner-2" alt="banner-img-1">
-                                        <div class="banner-img-shadow"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row h-100 align-items-center">
-                                <div class="col-6">
-                                    <div class="swiper-content">
-                                        <h1>Cements</h1>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                        <a href="#products" class="btn btn-primary">More Products</a>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="swiper-img">
-                                        <img src="images/banner-img-1.png" width="588" height="351" class="img-fluid banner-3" alt="banner-img-1">
-                                        <div class="banner-img-shadow"></div>
-                                    </div>
+                            <div class="col-6">
+                                <div class="swiper-img wow fadeInRight d-flex justify-content-start" data-wow-delay="1.3s">
+                                    <img src="images/banner-img-1-ch.png" width="588" height="351" class="img-fluid banner-1" alt="banner-img-1">
+                                    <div class="banner-img-shadow"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
-                
-                    
-                
-                    <!-- If we need scrollbar -->
-                    <!-- <div class="swiper-scrollbar"></div> -->
+                    <div class="swiper-slide">
+                        <div class="banner-img">
+                            <img src="images/banner-img-2-bg.jpg" width="588" height="351" class="img-fluid banner-1" alt="banner-img-2">
+                            <div class="banner-content">
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <h3>building material</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
             </div>
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
@@ -208,15 +181,15 @@
         <section id="about" class="py-100 pb-0">
             <div class="container">
                 <!-- About-Description Section -->
-                <div class="row">
+                <div class="row align-items-stretch">
                     <div class="col-xl-5">
                         <div class="about-img mt-4 mt-xl-0 wow fadeInLeft">
-                            <img src="images/About-Img.jpg" class="img-fluid" alt="about-img">
+                            <img width="500" height="500" src="images/About-Img.jpg" class="img-fluid" alt="about-img">
                         </div>
                     </div>
                     <div class="col-xl-7 order-first order-xl-last">
                         <div class="about-content wow fadeInRight" data-wow-delay="0.3s">
-                            <div class="sect-title mt-2">
+                            <div class="sect-title">
                                 <h2>More About <span>Vardan Enterprise</span></h2>
                             </div>
                             <div class="about-text">
@@ -288,21 +261,16 @@
                 <div class="product-content">
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-cement-tab" data-bs-toggle="pill" data-bs-target="#pills-cement"
-                                type="button" role="tab" aria-controls="pills-cement" aria-selected="true">Cement</button>
+                            <button class="nav-link active" id="pills-tmt-tab" data-bs-toggle="pill" data-bs-target="#pills-tmt"
+                            type="button" role="tab" aria-controls="pills-tmt" aria-selected="false">tmt steel bar</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-tmt-tab" data-bs-toggle="pill" data-bs-target="#pills-tmt"
-                                type="button" role="tab" aria-controls="pills-tmt" aria-selected="false">tmt steel bar</button>
+                            <button class="nav-link" id="pills-cement-tab" data-bs-toggle="pill" data-bs-target="#pills-cement"
+                                type="button" role="tab" aria-controls="pills-cement" aria-selected="true">Cement</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-steel-tab" data-bs-toggle="pill" data-bs-target="#pills-steel"
                                 type="button" role="tab" aria-controls="pills-steel" aria-selected="false">steel structure</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-elect-tab" data-bs-toggle="pill" data-bs-target="#pills-elect"
-                                type="button" role="tab" aria-controls="pills-elect" aria-selected="false">Electrical items
-                            </button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-paint-tab" data-bs-toggle="pill" data-bs-target="#pills-paint"
@@ -315,13 +283,18 @@
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-plumbing-tab" data-bs-toggle="pill" data-bs-target="#pills-plumbing"
-                                type="button" role="tab" aria-controls="pills-plumbing" aria-selected="false">Plumbing
+                            <button class="nav-link" id="pills-elect-tab" data-bs-toggle="pill" data-bs-target="#pills-elect"
+                                type="button" role="tab" aria-controls="pills-elect" aria-selected="false">Electrical items
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-roofing-tab" data-bs-toggle="pill" data-bs-target="#pills-roofing"
                                 type="button" role="tab" aria-controls="pills-roofing" aria-selected="false">Roofing soultions
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-plumbing-tab" data-bs-toggle="pill" data-bs-target="#pills-plumbing"
+                                type="button" role="tab" aria-controls="pills-plumbing" aria-selected="false">plumbing
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -333,144 +306,14 @@
                 </div>
             </div>
             <div class="tab-content mt-4" id="pills-tabContent">
-                <!-- Cement -->
-                <div class="tab-pane fade show active" id="pills-cement" role="tabpanel" aria-labelledby="pills-cement-tab" tabindex="0">
-                    <div class="product-box">
-                        <div class="container">
-                            <h2 class="product-tab-title">Cement</h2>
-                            <p class="product-tab-content">Cement is a binding material used in construction that is primarily responsible for holding various components of a structure together. It is a fine powder made from a mixture of materials, including limestone, clay, shells, and silica sand. The process of manufacturing cement involves crushing, grinding, heating, and blending these raw materials to form a powdered substance.</p>
-                        </div>
-                        <div class="product-slider cement-slider">
-                            <div class="container">
-                                <div class="owl-carousel owl-theme">
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/ACC-Cement.jpg" class="img-fluid" alt="cement-product-1">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/Ambuja-Cement-Giant.jpg" class="img-fluid" alt="cement-product-2">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/Binani.jpg" class="img-fluid" alt="cement-product-3">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/Hathi-Sidhee-Cement.jpg" class="img-fluid" alt="cement-product-4">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/HI-Bond.png" class="img-fluid" alt="cement-product-5">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/India-Cement.webp" class="img-fluid" alt="cement-product-6">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/jaypee.jpeg" class="img-fluid" alt="cement-product-7">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/JK-Cement.png" class="img-fluid" alt="cement-product-8">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/JK-Lakshmi-Cement.png" class="img-fluid" alt="cement-product-9">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/Polad.webp" class="img-fluid" alt="cement-product-10">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/Sanghi.jpg" class="img-fluid" alt="cement-product-11">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/Shree-cement.png" class="img-fluid" alt="cement-product-12">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/Silicon-Cement.png" class="img-fluid" alt="cement-product-13">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/TCI-Tapee-Cement.png" class="img-fluid" alt="cement-product-14">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/Ultratech-Cement.jpg" class="img-fluid" alt="cement-product-15">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/Virat-Cement.png" class="img-fluid" alt="cement-product-16">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Cement-vendor-Logos/wonderlogo.png" class="img-fluid" alt="cement-product-17">
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-products">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/cement/cement-1.jpeg" class="img-fluid" alt="cement-1">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>OPC-53 Grade Cement</h3>
-                                                    </div>
-                                                    <div>
-                                                        <p>OPC-53 Grade Cement is a type of Ordinary Portland Cement with a compressive strength of 53 MPa (MegaPascals). It is known for its high strength and is suitable for construction projects that require strong and durable structures. OPC-53 Grade Cement is commonly used in the construction of bridges, high-rise buildings, dams, and other heavy-duty structures.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/cement/cement-2.jpeg" class="img-fluid" alt="cement-2">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>OPC-43 Grade Cement</h3>
-                                                    </div>
-                                                    <div>
-                                                        <p>OPC-43 Grade Cement is another type of Ordinary Portland Cement with a compressive strength of 43 MPa. It is widely used in general construction works where high strength is not the primary requirement. OPC-43 Grade Cement is suitable for applications such as residential buildings, commercial complexes, and small-scale infrastructure projects.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/cement/cement-3.jpeg" class="img-fluid" alt="cement-3">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>PPC Cement</h3>
-                                                    </div>
-                                                    <div>
-                                                        <p>PPC (Portland Pozzolana Cement) is a type of blended cement that contains pozzolanic materials such as fly ash, volcanic ash, or silica fumes along with Ordinary Portland Cement. The addition of pozzolanic materials enhances the workability, durability, and sustainability of the cement. PPC Cement is commonly used in various construction applications, including residential, commercial, and infrastructure projects.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mt-4">
-                                    <span class="tab-box-footer">VARDAN ENTERPRISE is proud to offer an extensive range of Cement  products renowned for their reliability and high-quality. We understand that choosing the right cement is crucial for the success of any project, which is why we have carefully selected leading brands in the market to ensure customer satisfaction.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!-- TMT Bar -->
-                <div class="tab-pane fade" id="pills-tmt" role="tabpanel" aria-labelledby="pills-tmt-tab" tabindex="0">
+                <div class="tab-pane fade show active" id="pills-tmt" role="tabpanel" aria-labelledby="pills-tmt-tab" tabindex="0">
                     <div class="product-box">
                         <div class="container">
-                            <h2 class="product-tab-title">TMT Bar</h2>
+                            <div class="d-flex align-items-center mb-3">
+                                <h2 class="product-tab-title">TMT Bar</h2>
+                                <a href="docs/TMT BAR-BROCHURE-VARDAN ENTERPRISE.pdf" download="filename">Download Brochure</a>
+                            </div>
                             <ul>
                                 <li>
                                     <p class="product-tab-content">TMT bars, or Thermo-Mechanically Treated bars, are widely used in construction to reinforce concrete structures. These bars, made of low carbon steel, possess high tensile strength and are engineered for durability and stability.</p>
@@ -573,7 +416,7 @@
                                     <div class="item">
                                         <img src="images/product-logos/TMT-Vendor-Logos/vizag-tmt-bars.jpg" class="img-fluid" alt="TMT-product-27">
                                     </div>
-                                   
+                                    
                                 </div>
                             </div>
                         </div>
@@ -697,6 +540,142 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cement -->
+                <div class="tab-pane fade" id="pills-cement" role="tabpanel" aria-labelledby="pills-cement-tab" tabindex="0">
+                    <div class="product-box">
+                        <div class="container">
+                            <div class="d-flex align-items-center mb-3">
+                                <h2 class="product-tab-title">Cement</h2>
+                                <a href="docs/CEMENT-BROCHURE-VARDAN ENTERPRISE.pdf" download="filename">Download Brochure</a>
+                            </div>
+                            <p class="product-tab-content">Cement is a binding material used in construction that is primarily responsible for holding various components of a structure together. It is a fine powder made from a mixture of materials, including limestone, clay, shells, and silica sand. The process of manufacturing cement involves crushing, grinding, heating, and blending these raw materials to form a powdered substance.</p>
+                        </div>
+                        <div class="product-slider cement-slider">
+                            <div class="container">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/ACC-Cement.jpg" class="img-fluid" alt="cement-product-1">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/Ambuja-Cement-Giant.jpg" class="img-fluid" alt="cement-product-2">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/Binani.jpg" class="img-fluid" alt="cement-product-3">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/Hathi-Sidhee-Cement.jpg" class="img-fluid" alt="cement-product-4">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/HI-Bond.png" class="img-fluid" alt="cement-product-5">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/India-Cement.webp" class="img-fluid" alt="cement-product-6">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/jaypee.jpeg" class="img-fluid" alt="cement-product-7">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/JK-Cement.png" class="img-fluid" alt="cement-product-8">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/JK-Lakshmi-Cement.png" class="img-fluid" alt="cement-product-9">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/Polad.webp" class="img-fluid" alt="cement-product-10">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/Sanghi.jpg" class="img-fluid" alt="cement-product-11">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/Shree-cement.png" class="img-fluid" alt="cement-product-12">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/Silicon-Cement.png" class="img-fluid" alt="cement-product-13">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/TCI-Tapee-Cement.png" class="img-fluid" alt="cement-product-14">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/Ultratech-Cement.jpg" class="img-fluid" alt="cement-product-15">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/Virat-Cement.png" class="img-fluid" alt="cement-product-16">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Cement-vendor-Logos/wonderlogo.png" class="img-fluid" alt="cement-product-17">
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-products">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/cement/cement-1.jpeg" class="img-fluid" alt="cement-1">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>OPC-53 Grade Cement</h3>
+                                                    </div>
+                                                    <div>
+                                                        <p>OPC-53 Grade Cement is a type of Ordinary Portland Cement with a compressive strength of 53 MPa (MegaPascals). It is known for its high strength and is suitable for construction projects that require strong and durable structures. OPC-53 Grade Cement is commonly used in the construction of bridges, high-rise buildings, dams, and other heavy-duty structures.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/cement/cement-2.jpeg" class="img-fluid" alt="cement-2">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>OPC-43 Grade Cement</h3>
+                                                    </div>
+                                                    <div>
+                                                        <p>OPC-43 Grade Cement is another type of Ordinary Portland Cement with a compressive strength of 43 MPa. It is widely used in general construction works where high strength is not the primary requirement. OPC-43 Grade Cement is suitable for applications such as residential buildings, commercial complexes, and small-scale infrastructure projects.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/cement/cement-3.jpeg" class="img-fluid" alt="cement-3">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>PPC Cement</h3>
+                                                    </div>
+                                                    <div>
+                                                        <p>PPC (Portland Pozzolana Cement) is a type of blended cement that contains pozzolanic materials such as fly ash, volcanic ash, or silica fumes along with Ordinary Portland Cement. The addition of pozzolanic materials enhances the workability, durability, and sustainability of the cement. PPC Cement is commonly used in various construction applications, including residential, commercial, and infrastructure projects.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <span class="tab-box-footer">VARDAN ENTERPRISE is proud to offer an extensive range of Cement  products renowned for their reliability and high-quality. We understand that choosing the right cement is crucial for the success of any project, which is why we have carefully selected leading brands in the market to ensure customer satisfaction.</span>
                                 </div>
                             </div>
                         </div>
@@ -965,6 +944,411 @@
                                 </div>
                                 <div class="mt-4">
                                     <span class="tab-box-footer">VARDAN ENTERPRISE is proud to offer an extensive range of steel structure products renowned for their reliability and high-quality. We understand that choosing the right Steel Structure  is crucial for the success of any project, which is why we have carefully selected leading brands in the market to ensure customer satisfaction.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Paints & Finishes -->
+                <div class="tab-pane fade" id="pills-paint" role="tabpanel" aria-labelledby="pills-paint-tab" tabindex="0">
+                    <div class="product-box">
+                        <div class="container">
+                            <h2 class="product-tab-title">Paints & Finishes</h2>
+                            <p class="product-tab-content">Paints and finishes play a crucial role in enhancing the aesthetic appeal and protecting the surfaces of buildings. They are available in a wide range of colors, types, and finishes, each designed for specific applications and environments. Let's explore the different types of paints and finishes commonly used in buildings:
+                            </p>
+                        </div>
+                        <div class="product-slider paint-slider">
+                            <div class="container">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                        <img src="images/product-logos/Paint/ASIAN-PAINT.webp" class="img-fluid" alt="paint-product-1">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Paint/BERGER.png" class="img-fluid" alt="paint-product-2">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Paint/CARBOLINE.png" class="img-fluid" alt="paint-product-3">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Paint/DULUX.webp" class="img-fluid" alt="paint-product-4">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Paint/INDIGO.jpg" class="img-fluid" alt="paint-product-5">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Paint/JENSON&NICHOLSON.png" class="img-fluid" alt="paint-product-6">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Paint/JOTUN.png" class="img-fluid" alt="paint-product-7">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Paint/JSW.png" class="img-fluid" alt="paint-product-8">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Paint/KANSAI-NEROLAC.webp" class="img-fluid" alt="paint-product-9">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Paint/NIPPON.png" class="img-fluid" alt="paint-product-10">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/Paint/SHALIMAR.jpg" class="img-fluid" alt="paint-product-11">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-products">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/paints/paint-1.jpg" class="img-fluid" alt="paint-1">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>Interior Paints</h3>
+                                                    </div>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                <p><b>Latex Paint:</b> Also known as water-based paint, latex paint is the most popular choice for interior walls and ceilings. It dries quickly, has low odor, and is easy to clean up with water.</p>
+                                                            </li>
+                                                            <li>
+                                                                <p><b>Oil-Based Paint:</b> Oil-based paints provide a durable and smooth finish. They are commonly used on trim, doors, and furniture. However, they have a strong odor and require solvents for cleanup.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/paints/paint-2.jpg" class="img-fluid" alt="paint-1">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>Exterior Paints</h3>
+                                                    </div>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                <p><b>Acrylic Paint:</b> Acrylic paint is a popular choice for exterior surfaces due to its durability, flexibility, and resistance to fading. It can withstand various weather conditions and is easy to clean.
+                                                                </p>
+                                                            </li>
+                                                            <li>
+                                                                <p><b>Elastomeric Paint:</b>  Elastomeric paint is a thick, flexible coating that can bridge cracks and withstand extreme weather conditions. It provides excellent protection for exterior masonry surfaces.</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/paints/paint-3.jpg" class="img-fluid" alt="paint-1">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>Specialized Paints</h3>
+                                                    </div>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                <p><b>Primer:</b> Primers are used as a preparatory coat before applying the final paint. They improve adhesion, promote uniform color, and enhance the durability of the topcoat.
+                                                                </p>
+                                                            </li>
+                                                            <li>
+                                                                <p><b>Anti-Mold Paint:</b> his type of paint contains additives that inhibit the growth of mold and mildew, making it suitable for areas prone to moisture, such as bathrooms and basements.
+                                                                </p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/paints/paint-4.jpeg" class="img-fluid" alt="paint-1">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>Finishes</h3>
+                                                    </div>
+                                                    <div>
+                                                        <ul>
+                                                            <li>
+                                                                <p><b>Matte Finish:</b> Matte finishes have a non-reflective, smooth appearance and are ideal for hiding surface imperfections. They are commonly used in living rooms, bedrooms, and ceilings.
+                                                                </p>
+                                                            </li>
+                                                            <li>
+                                                                <p><b>Satin Finish:</b> Satin finishes offer a subtle sheen and are more durable than matte finishes. They are often used in high-traffic areas, such as hallways, kitchens, and bathrooms.
+                                                                </p>
+                                                            </li>
+                                                            <li>
+                                                                <p><b>Glossy Finish:</b> Glossy finishes provide a shiny, reflective surface and are highly durable and easy to clean. They are commonly used on doors, trims, and furniture.
+                                                                </p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <span class="tab-box-footer"><b>When selecting paints and finishes for buildings, consider factors such as the surface type, location (interior or exterior), desired durability, and environmental conditions. It's important to follow the manufacturer's guidelines for proper application and maintenance to ensure long-lasting results.</b></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Natural Stone -->
+                <div class="tab-pane fade" id="pills-natural" role="tabpanel" aria-labelledby="pills-natural-tab" tabindex="0">
+                    <div class="product-box">
+                        <div class="container">
+                            <div class="d-flex align-items-center mb-3">
+                                <h2 class="product-tab-title">Widest Variety Of Stones</h2>
+                                <a href="docs/WIDEST-VARIETY OF-NATURAL-STONES-VARDAN ENTERPRISE.pdf" download="filename">Download Brochure</a>
+                            </div>
+                            <p class="product-tab-content">We offer a diverse selection of natural stones and natural building stones to cater to your construction and design needs. Our collection encompasses a wide range of high-quality materials, including granites, marbles, sandstone, slate, limestone, and onyx. Each type of stone possesses unique characteristics that can enhance the beauty and durability of your projects.
+                            </p>
+                        </div>
+                        <!-- <div class="product-slider natural-slider">
+                            <div class="container">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/Akshat.jpg" class="img-fluid" alt="TMT-product-1">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/ASR.jpg" class="img-fluid" alt="TMT-product-2">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/bhushan.png" class="img-fluid" alt="TMT-product-3">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/Challenge.webp" class="img-fluid" alt="TMT-product-4">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/Diamond.png" class="img-fluid" alt="TMT-product-5">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/Essar.jpg" class="img-fluid" alt="TMT-product-6">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/ET-TMT.png" class="img-fluid" alt="TMT-product-7">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/Friends.jpg" class="img-fluid" alt="TMT-product-8">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/Gallantt.jpg" class="img-fluid" alt="TMT-product-9">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/German-TMX.png" class="img-fluid" alt="TMT-product-10">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/Icon.png" class="img-fluid" alt="TMT-product-11">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/jai-raj.png" class="img-fluid" alt="TMT-product-12">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/Jindal.jpg" class="img-fluid" alt="TMT-product-13">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/Kamdhenu.jpg" class="img-fluid" alt="TMT-product-14">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/kothi.webp" class="img-fluid" alt="TMT-product-15">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/mono-tmt-bars.jpg" class="img-fluid" alt="TMT-product-16">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-17">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.webp" class="img-fluid" alt="TMT-product-17.2">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-18">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-19">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-20">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-21">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-22">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-23">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-24">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-25">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-26">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-27">
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="tab-products">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/stones/stone-1.jpeg" class="img-fluid" alt="stone-1">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>Granite</h3>
+                                                    </div>
+                                                    <div>
+                                                        <p> Known for its exceptional strength and durability, granite is a popular choice for countertops, flooring, and exterior cladding. With its wide array of colors and patterns, granite adds a touch of elegance to any space.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/stones/stone-2.jpeg" class="img-fluid" alt="stone-2">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>Marble</h3>
+                                                    </div>
+                                                    <div>
+                                                        <p>Renowned for its timeless beauty and luxurious appeal, marble is often used in prestigious architectural projects, sculptures, and elegant interior designs. Its unique veining patterns and lustrous finish create an air of sophistication.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/stones/stone-3.jpeg" class="img-fluid" alt="stone-3">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>Sandstone</h3>
+                                                    </div>
+                                                    <div>
+                                                        <p>Offering a rustic and natural charm, sandstone is frequently utilized in both interior and exterior applications. Its warm hues and textured surface make it suitable for paving, wall cladding, and landscaping projects.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/stones/stone-4.jpeg" class="img-fluid" alt="stone-4">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>Slate</h3>
+                                                    </div>
+                                                    <div>
+                                                        <p> Recognized for its durability and distinctive layered appearance, slate is ideal for both traditional and contemporary designs. It is commonly used for roofing, flooring, wall tiles, and outdoor applications due to its resistance to weathering.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/stones/stone-5.webp" class="img-fluid" alt="stone-5">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>Limestone</h3>
+                                                    </div>
+                                                    <div>
+                                                        <p>Exhibiting a smooth and uniform texture, limestone is a versatile natural stone used in various architectural applications. It is often employed for building facades, flooring, staircases, and decorative elements, adding an elegant touch to any setting.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 mt-4">
+                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
+                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
+                                                <div class="tab-product-img d-flex align-items-center">
+                                                    <img src="images/product-images/stones/stone-6.jpeg" class="img-fluid" alt="stone-6">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-lg-12 col-xl-7">
+                                                <div class="tab-product-content text-lg-center text-xl-start">
+                                                    <div class="tab-product-title">
+                                                        <h3>Onyx</h3>
+                                                    </div>
+                                                    <div>
+                                                        <p>Revered for its captivating translucency and vibrant colors, onyx is a luxurious stone that creates stunning visual effects. It is frequently utilized in high-end projects, such as feature walls, countertops, and decorative accents, to evoke a sense of opulence.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <span class="tab-box-footer">VARDAN ENTERPRISE is proud to offer an extensive range of natural stone products renowned for their reliability and high-quality. We understand that choosing the right Product is crucial for the success of any project, which is why we have carefully selected leading brands in the market to ensure customer satisfaction.
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -1258,277 +1642,48 @@
                         </div>
                     </div>
                 </div>
-                <!-- Paints & Finishes -->
-                <div class="tab-pane fade" id="pills-paint" role="tabpanel" aria-labelledby="pills-paint-tab" tabindex="0">
+                <!-- Roofing Solution -->
+                <div class="tab-pane fade" id="pills-roofing" role="tabpanel" aria-labelledby="pills-roofing-tab" tabindex="0">
                     <div class="product-box">
                         <div class="container">
-                            <h2 class="product-tab-title">Paints & Finishes</h2>
-                            <p class="product-tab-content">Paints and finishes play a crucial role in enhancing the aesthetic appeal and protecting the surfaces of buildings. They are available in a wide range of colors, types, and finishes, each designed for specific applications and environments. Let's explore the different types of paints and finishes commonly used in buildings:
-                            </p>
-                        </div>
-                        <div class="product-slider paint-slider">
-                            <div class="container">
-                                <div class="owl-carousel owl-theme">
-                                    <div class="item">
-                                        <img src="images/product-logos/Paint/ASIAN-PAINT.webp" class="img-fluid" alt="paint-product-1">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Paint/BERGER.png" class="img-fluid" alt="paint-product-2">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Paint/CARBOLINE.png" class="img-fluid" alt="paint-product-3">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Paint/DULUX.webp" class="img-fluid" alt="paint-product-4">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Paint/INDIGO.jpg" class="img-fluid" alt="paint-product-5">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Paint/JENSON&NICHOLSON.png" class="img-fluid" alt="paint-product-6">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Paint/JOTUN.png" class="img-fluid" alt="paint-product-7">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Paint/JSW.png" class="img-fluid" alt="paint-product-8">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Paint/KANSAI-NEROLAC.webp" class="img-fluid" alt="paint-product-9">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Paint/NIPPON.png" class="img-fluid" alt="paint-product-10">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Paint/SHALIMAR.jpg" class="img-fluid" alt="paint-product-11">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-products">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/paints/paint-1.jpg" class="img-fluid" alt="paint-1">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>Interior Paints</h3>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <p><b>Latex Paint:</b> Also known as water-based paint, latex paint is the most popular choice for interior walls and ceilings. It dries quickly, has low odor, and is easy to clean up with water.</p>
-                                                            </li>
-                                                            <li>
-                                                                <p><b>Oil-Based Paint:</b> Oil-based paints provide a durable and smooth finish. They are commonly used on trim, doors, and furniture. However, they have a strong odor and require solvents for cleanup.</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/paints/paint-2.jpg" class="img-fluid" alt="paint-1">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>Exterior Paints</h3>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <p><b>Acrylic Paint:</b> Acrylic paint is a popular choice for exterior surfaces due to its durability, flexibility, and resistance to fading. It can withstand various weather conditions and is easy to clean.
-                                                                </p>
-                                                            </li>
-                                                            <li>
-                                                                <p><b>Elastomeric Paint:</b>  Elastomeric paint is a thick, flexible coating that can bridge cracks and withstand extreme weather conditions. It provides excellent protection for exterior masonry surfaces.</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/paints/paint-3.jpg" class="img-fluid" alt="paint-1">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>Specialized Paints</h3>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <p><b>Primer:</b> Primers are used as a preparatory coat before applying the final paint. They improve adhesion, promote uniform color, and enhance the durability of the topcoat.
-                                                                </p>
-                                                            </li>
-                                                            <li>
-                                                                <p><b>Anti-Mold Paint:</b> his type of paint contains additives that inhibit the growth of mold and mildew, making it suitable for areas prone to moisture, such as bathrooms and basements.
-                                                                </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/paints/paint-4.jpeg" class="img-fluid" alt="paint-1">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>Finishes</h3>
-                                                    </div>
-                                                    <div>
-                                                        <ul>
-                                                            <li>
-                                                                <p><b>Matte Finish:</b> Matte finishes have a non-reflective, smooth appearance and are ideal for hiding surface imperfections. They are commonly used in living rooms, bedrooms, and ceilings.
-                                                                </p>
-                                                            </li>
-                                                            <li>
-                                                                <p><b>Satin Finish:</b> Satin finishes offer a subtle sheen and are more durable than matte finishes. They are often used in high-traffic areas, such as hallways, kitchens, and bathrooms.
-                                                                </p>
-                                                            </li>
-                                                            <li>
-                                                                <p><b>Glossy Finish:</b> Glossy finishes provide a shiny, reflective surface and are highly durable and easy to clean. They are commonly used on doors, trims, and furniture.
-                                                                </p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mt-4">
-                                    <span class="tab-box-footer"><b>When selecting paints and finishes for buildings, consider factors such as the surface type, location (interior or exterior), desired durability, and environmental conditions. It's important to follow the manufacturer's guidelines for proper application and maintenance to ensure long-lasting results.</b></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Natural Stone -->
-                <div class="tab-pane fade" id="pills-natural" role="tabpanel" aria-labelledby="pills-natural-tab" tabindex="0">
-                    <div class="product-box">
-                        <div class="container">
-                            <h2 class="product-tab-title">Widest Variety Of Stones
+                            <h2 class="product-tab-title">Roofing Solution
                             </h2>
-                            <p class="product-tab-content">We offer a diverse selection of natural stones and natural building stones to cater to your construction and design needs. Our collection encompasses a wide range of high-quality materials, including granites, marbles, sandstone, slate, limestone, and onyx. Each type of stone possesses unique characteristics that can enhance the beauty and durability of your projects.
+                            <p class="product-tab-content">VARDAN ENTERPRISE is proud to offer an extensive range of Roofing products renowned for their reliability and high-quality. We understand that choosing the right product is crucial for the success of any project, which is why we have carefully selected leading brands in the market to ensure customer satisfaction.
                             </p>
                         </div>
-                        <!-- <div class="product-slider natural-slider">
+                        <div class="product-slider roofing-slider">
                             <div class="container">
                                 <div class="owl-carousel owl-theme">
                                     <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/Akshat.jpg" class="img-fluid" alt="TMT-product-1">
+                                        <img src="images/product-logos/Roofing/AMNS-1.png" class="img-fluid" alt="roofing-product-1">
                                     </div>
                                     <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/ASR.jpg" class="img-fluid" alt="TMT-product-2">
+                                        <img src="images/product-logos/Roofing/AMNS.png" class="img-fluid" alt="roofing-product-2">
                                     </div>
                                     <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/bhushan.png" class="img-fluid" alt="TMT-product-3">
+                                        <img src="images/product-logos/Roofing/APOLLO.png" class="img-fluid" alt="roofing-product-3">
                                     </div>
                                     <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/Challenge.webp" class="img-fluid" alt="TMT-product-4">
+                                        <img src="images/product-logos/Roofing/ASIAN.png" class="img-fluid" alt="roofing-product-4">
                                     </div>
                                     <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/Diamond.png" class="img-fluid" alt="TMT-product-5">
+                                        <img src="images/product-logos/Roofing/Bhushan.png" class="img-fluid" alt="roofing-product-5">
                                     </div>
                                     <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/Essar.jpg" class="img-fluid" alt="TMT-product-6">
+                                        <img src="images/product-logos/Roofing/JINDAL.png" class="img-fluid" alt="roofing-product-6">
                                     </div>
                                     <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/ET-TMT.png" class="img-fluid" alt="TMT-product-7">
+                                        <img src="images/product-logos/Roofing/JSW.jpeg" class="img-fluid" alt="roofing-product-7">
                                     </div>
                                     <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/Friends.jpg" class="img-fluid" alt="TMT-product-8">
+                                        <img src="images/product-logos/Roofing/Ramco-IndustriesяLimited.jpg" class="img-fluid" alt="roofing-product-8">
                                     </div>
                                     <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/Gallantt.jpg" class="img-fluid" alt="TMT-product-9">
+                                        <img src="images/product-logos/Roofing/TATA.webp" class="img-fluid" alt="roofing-product-9">
                                     </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/German-TMX.png" class="img-fluid" alt="TMT-product-10">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/Icon.png" class="img-fluid" alt="TMT-product-11">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/jai-raj.png" class="img-fluid" alt="TMT-product-12">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/Jindal.jpg" class="img-fluid" alt="TMT-product-13">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/Kamdhenu.jpg" class="img-fluid" alt="TMT-product-14">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/kothi.webp" class="img-fluid" alt="TMT-product-15">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/mono-tmt-bars.jpg" class="img-fluid" alt="TMT-product-16">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-17">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.webp" class="img-fluid" alt="TMT-product-17.2">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-18">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-19">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-20">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-21">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-22">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-23">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-24">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-25">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-26">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/TMT-Vendor-Logos/National.jpeg" class="img-fluid" alt="TMT-product-27">
-                                    </div>
-                                   
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                         <div class="tab-products">
                             <div class="container">
                                 <div class="row">
@@ -1536,16 +1691,16 @@
                                         <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
                                             <div class="col-md-5 col-lg-12 col-xl-5 h-100">
                                                 <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/stones/stone-1.jpeg" class="img-fluid" alt="stone-1">
+                                                    <img src="images/product-images/roofing/roofing-1.jpg" class="img-fluid" alt="roofing-1">
                                                 </div>
                                             </div>
                                             <div class="col-md-7 col-lg-12 col-xl-7">
                                                 <div class="tab-product-content text-lg-center text-xl-start">
                                                     <div class="tab-product-title">
-                                                        <h3>Granite</h3>
+                                                        <h3>Roofing Sheet</h3>
                                                     </div>
                                                     <div>
-                                                        <p> Known for its exceptional strength and durability, granite is a popular choice for countertops, flooring, and exterior cladding. With its wide array of colors and patterns, granite adds a touch of elegance to any space.
+                                                        <p> These sheets are commonly made from materials like metal, asphalt, fiberglass, or plastic. They provide durability and weather protection for residential, commercial, and industrial buildings.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1556,16 +1711,16 @@
                                         <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
                                             <div class="col-md-5 col-lg-12 col-xl-5 h-100">
                                                 <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/stones/stone-2.jpeg" class="img-fluid" alt="stone-2">
+                                                    <img src="images/product-images/roofing/roofing-2.webp" class="img-fluid" alt="roofing-2">
                                                 </div>
                                             </div>
                                             <div class="col-md-7 col-lg-12 col-xl-7">
                                                 <div class="tab-product-content text-lg-center text-xl-start">
                                                     <div class="tab-product-title">
-                                                        <h3>Marble</h3>
+                                                        <h3>Polycarbonate Sheet</h3>
                                                     </div>
                                                     <div>
-                                                        <p>Renowned for its timeless beauty and luxurious appeal, marble is often used in prestigious architectural projects, sculptures, and elegant interior designs. Its unique veining patterns and lustrous finish create an air of sophistication.
+                                                        <p>Transparent and durable, polycarbonate sheets are used for roofing applications that require natural light, such as greenhouses or skylights. They offer UV protection and thermal insulation.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1576,76 +1731,16 @@
                                         <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
                                             <div class="col-md-5 col-lg-12 col-xl-5 h-100">
                                                 <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/stones/stone-3.jpeg" class="img-fluid" alt="stone-3">
+                                                    <img src="images/product-images/roofing/roofing-3.webp" class="img-fluid" alt="roofing-3">
                                                 </div>
                                             </div>
                                             <div class="col-md-7 col-lg-12 col-xl-7">
                                                 <div class="tab-product-content text-lg-center text-xl-start">
                                                     <div class="tab-product-title">
-                                                        <h3>Sandstone</h3>
+                                                        <h3>Tarpaulin (GSM)</h3>
                                                     </div>
                                                     <div>
-                                                        <p>Offering a rustic and natural charm, sandstone is frequently utilized in both interior and exterior applications. Its warm hues and textured surface make it suitable for paving, wall cladding, and landscaping projects.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/stones/stone-4.jpeg" class="img-fluid" alt="stone-4">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>Slate</h3>
-                                                    </div>
-                                                    <div>
-                                                        <p> Recognized for its durability and distinctive layered appearance, slate is ideal for both traditional and contemporary designs. It is commonly used for roofing, flooring, wall tiles, and outdoor applications due to its resistance to weathering.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/stones/stone-5.webp" class="img-fluid" alt="stone-5">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>Limestone</h3>
-                                                    </div>
-                                                    <div>
-                                                        <p>Exhibiting a smooth and uniform texture, limestone is a versatile natural stone used in various architectural applications. It is often employed for building facades, flooring, staircases, and decorative elements, adding an elegant touch to any setting.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/stones/stone-6.jpeg" class="img-fluid" alt="stone-6">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>Onyx</h3>
-                                                    </div>
-                                                    <div>
-                                                        <p>Revered for its captivating translucency and vibrant colors, onyx is a luxurious stone that creates stunning visual effects. It is frequently utilized in high-end projects, such as feature walls, countertops, and decorative accents, to evoke a sense of opulence.
+                                                        <p>Tarpaulins are heavy-duty, waterproof fabrics used as temporary roofing or protective covers. They come in different thicknesses (measured in GSM) and are commonly used in construction, camping, and emergencies.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -1654,8 +1749,7 @@
                                     </div>
                                 </div>
                                 <div class="mt-4">
-                                    <span class="tab-box-footer">VARDAN ENTERPRISE is proud to offer an extensive range of natural stone products renowned for their reliability and high-quality. We understand that choosing the right Product is crucial for the success of any project, which is why we have carefully selected leading brands in the market to ensure customer satisfaction.
-                                    </span>
+                                    <span class="tab-box-footer"><b> Remember to consider factors like location, climate, budget, and intended use when choosing a roofing solution. Consulting with a professional roofer or contractor can provide further guidance.</b></span>
                                 </div>
                             </div>
                         </div>
@@ -1786,119 +1880,6 @@
                                 </div>
                                 <div class="mt-4">
                                     <span class="tab-box-footer">VARDAN ENTERPRISE is proud to offer an extensive range of Plumbing products renowned for their reliability and high-quality. We understand that choosing the right product is crucial for the success of any project, which is why we have carefully selected leading brands in the market to ensure customer satisfaction.</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Roofing Solution -->
-                <div class="tab-pane fade" id="pills-roofing" role="tabpanel" aria-labelledby="pills-roofing-tab" tabindex="0">
-                    <div class="product-box">
-                        <div class="container">
-                            <h2 class="product-tab-title">Roofing Solution
-                            </h2>
-                            <p class="product-tab-content">VARDAN ENTERPRISE is proud to offer an extensive range of Roofing products renowned for their reliability and high-quality. We understand that choosing the right product is crucial for the success of any project, which is why we have carefully selected leading brands in the market to ensure customer satisfaction.
-                            </p>
-                        </div>
-                        <div class="product-slider roofing-slider">
-                            <div class="container">
-                                <div class="owl-carousel owl-theme">
-                                    <div class="item">
-                                        <img src="images/product-logos/Roofing/AMNS-1.png" class="img-fluid" alt="roofing-product-1">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Roofing/AMNS.png" class="img-fluid" alt="roofing-product-2">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Roofing/APOLLO.png" class="img-fluid" alt="roofing-product-3">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Roofing/ASIAN.png" class="img-fluid" alt="roofing-product-4">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Roofing/Bhushan.png" class="img-fluid" alt="roofing-product-5">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Roofing/JINDAL.png" class="img-fluid" alt="roofing-product-6">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Roofing/JSW.jpeg" class="img-fluid" alt="roofing-product-7">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Roofing/Ramco-IndustriesяLimited.jpg" class="img-fluid" alt="roofing-product-8">
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/product-logos/Roofing/TATA.webp" class="img-fluid" alt="roofing-product-9">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-products">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/roofing/roofing-1.jpg" class="img-fluid" alt="roofing-1">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>Roofing Sheet</h3>
-                                                    </div>
-                                                    <div>
-                                                        <p> These sheets are commonly made from materials like metal, asphalt, fiberglass, or plastic. They provide durability and weather protection for residential, commercial, and industrial buildings.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/roofing/roofing-2.webp" class="img-fluid" alt="roofing-2">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>Polycarbonate Sheet</h3>
-                                                    </div>
-                                                    <div>
-                                                        <p>Transparent and durable, polycarbonate sheets are used for roofing applications that require natural light, such as greenhouses or skylights. They offer UV protection and thermal insulation.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 mt-4">
-                                        <div class="tab-product-box h-100 d-md-flex d-lg-block d-xl-flex">
-                                            <div class="col-md-5 col-lg-12 col-xl-5 h-100">
-                                                <div class="tab-product-img d-flex align-items-center">
-                                                    <img src="images/product-images/roofing/roofing-3.webp" class="img-fluid" alt="roofing-3">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7 col-lg-12 col-xl-7">
-                                                <div class="tab-product-content text-lg-center text-xl-start">
-                                                    <div class="tab-product-title">
-                                                        <h3>Tarpaulin (GSM)</h3>
-                                                    </div>
-                                                    <div>
-                                                        <p>Tarpaulins are heavy-duty, waterproof fabrics used as temporary roofing or protective covers. They come in different thicknesses (measured in GSM) and are commonly used in construction, camping, and emergencies.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mt-4">
-                                    <span class="tab-box-footer"><b> Remember to consider factors like location, climate, budget, and intended use when choosing a roofing solution. Consulting with a professional roofer or contractor can provide further guidance.</b></span>
                                 </div>
                             </div>
                         </div>
