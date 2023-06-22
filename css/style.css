@@ -578,6 +578,12 @@ section#contact-us .form-control{
   color: var(--bs-primary);
 
 }
+div#map{
+  margin-bottom: 100px;
+}
+div#map iframe{
+  width: 100%;
+}
 /*------------------------------------- Contact-end -------------------------------------*/
 
 /*------------------------------------- Footer-Start -------------------------------------*/
