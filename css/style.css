@@ -382,7 +382,7 @@ section#banner .swiper-slide .swiper-img img.banner-2{
   margin-left: auto;
 }
 section#banner .swiper-slide .swiper-img img{
-  box-shadow: 0 48px 100px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 48px 100px 0 rgba(0, 0, 0, 0.15);
 }
 /* section#banner .swiper-slide .banner-img-shadow{
   position: absolute;
