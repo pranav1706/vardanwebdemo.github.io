@@ -183,6 +183,8 @@ img{
 }
 .mainbar{
   background-color: var(--bs-body-bg);
+  z-index: 999999;
+  width: 100%;
 }
 .mainbar .navbar-nav .nav-link{
   color: var(--bs-body-color);
@@ -278,11 +280,6 @@ header .mainbar .navbar-nav .nav-link.active{
     transform: rotate(-45deg);
     top: 18.5px;
     left: 0px;
-  }
-  .mainbar{
-    /* position: fixed; */
-    z-index: 10;
-    width: 100%;
   }
 .mainbar .navbar-toggler{
   border: none;
